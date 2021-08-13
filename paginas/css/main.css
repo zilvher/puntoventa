@@ -1,0 +1,32 @@
+ h2{
+    margin: 100px 20px;
+  }  
+  .opc-menu-card{
+    display: flex;
+    justify-content: space-around;
+  }
+  .card-menu{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px teal;
+    border-radius: 12px 12px 0 0;
+    text-align: center;
+    text-decoration: none;
+  }
+  .card-menu:hover>.card-text{
+    color: teal;
+    background-color: #fff;
+    border-top: solid 1px teal;
+  }
+  .card-menu:active{
+    transform: scale(0.85);
+  }
+  .card-img, .card-text{
+  }
+  .card-img{
+    font-size: 100px;
+  }
+  .card-text{
+    color: #fff;
+    background-color: teal;
+  }

@@ -1,0 +1,50 @@
+ h2{
+   margin: 24px;
+ }
+ .login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .control-form{
+    display: block;
+    margin: 12px;
+    padding: 8px;
+    border: none;
+    border-bottom: solid 1px black;
+  }
+  .control-form:active{
+    border: none;
+  }
+  .control-label{
+    display: inline-block;
+    margin: 0 12px;
+    padding: 8px;
+    border: none;
+    
+  }
+  .btn{
+    margin: auto;
+    border: none;
+    padding: 8px 18px;
+  }
+  .btn:hover{
+    color: #fff;
+    background-color: #000;
+  }
+  .btn:active{
+    transform: scale(0.9);
+  }
+  .group-flex{
+      display: flex;
+      justify-content: space-around;
+    }
+  .group-controls-flex{
+    display: flex;
+      justify-content: center;
+  }
+    .primary{
+      color: #fff;
+      background-color: teal;
+    }
