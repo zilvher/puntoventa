@@ -14,7 +14,7 @@
         <a href="clientes.php" class="link">Clientes</a>
       </li>
       <li>
-        <a href="" class="link">Ventas</a>
+        <a href="ventas.php" class="link">Ventas</a>
       </li>
     </ul>
   </nav>

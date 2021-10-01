@@ -23,7 +23,7 @@ include('modulos/header.php')
       Listar
     </span>
   </a>
-   <a href="" class="card-menu">
+   <a href="form/srchClientes.php" class="card-menu">
      <span class="card-img">
        &#128373;
      </span>

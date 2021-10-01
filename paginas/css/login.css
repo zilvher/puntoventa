@@ -1,3 +1,9 @@
+h1{
+  text-align: center;
+  text-shadow: 2px 2px gray; 
+  margin: 24px 0;
+
+}
  h2{
    margin: 24px;
  }
@@ -11,18 +17,16 @@
     display: block;
     margin: 12px;
     padding: 8px;
+    outline: none;
     border: none;
     border-bottom: solid 1px black;
   }
-  .control-form:active{
-    border: none;
-  }
+
   .control-label{
     display: inline-block;
     margin: 0 12px;
     padding: 8px;
     border: none;
-    
   }
   .btn{
     margin: auto;
@@ -41,10 +45,28 @@
       justify-content: space-around;
     }
   .group-controls-flex{
-    display: flex;
+      display: flex;
       justify-content: center;
+      align-items: center;
+      
   }
     .primary{
       color: #fff;
       background-color: teal;
     }
+     .control-search{
+   /* border: solid 1px red;*/
+    margin: 0;
+  }
+  .btn-search{
+    margin: 0;
+    padding: 12px;
+   border-radius: 0 8px 8px 0;
+    
+  }
+  .search-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+  }

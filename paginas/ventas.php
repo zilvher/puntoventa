@@ -5,9 +5,9 @@
 include('modulos/header.php')
 ?>
 
- <h2>Productos</h2>
+ <h2>Ventas</h2>
 <div class="opc-menu-card">
-  <a href="form/frmNuevoProducto.php" class="card-menu">
+  <a href="form/frmNuevaVenta.php" class="card-menu">
     <span class="card-img">
       &#9997;
     </span>
@@ -15,7 +15,7 @@ include('modulos/header.php')
       Crear nuevo
     </span>
   </a>
-  <a href="form/lstProductos.php" class="card-menu">
+  <a href="form/lstVentas.php" class="card-menu">
     <span class="card-img">
       &#128203;
     </span>
@@ -23,7 +23,7 @@ include('modulos/header.php')
       Listar
     </span>
   </a>
-   <a href="form/srchProductos.php" class="card-menu">
+   <a href="form/srchVentas.php" class="card-menu">
      <span class="card-img">
        &#128373;
      </span>

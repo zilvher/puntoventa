@@ -8,6 +8,7 @@ $nam_prod = $_GET['namprd'];
 $prc_prod = floatval($_GET['prcprd']);
 $stk_prod = intval($_GET['stkprd']);
 
+
 ?>
 <link rel="stylesheet" href="../css/login.css" />
 
